@@ -44,44 +44,44 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyD1djpC1IMGdnXKgNr3kpk0q9iUt47tkpU',
-    appId: '1:255895537193:web:a5ed928b71c374bc14be38',
-    messagingSenderId: '255895537193',
-    projectId: 'triot-d7e6e',
-    authDomain: 'triot-d7e6e.firebaseapp.com',
-    databaseURL: 'https://triot-d7e6e-default-rtdb.firebaseio.com',
-    storageBucket: 'triot-d7e6e.appspot.com',
-    measurementId: 'G-KK70TG4BHP',
+    apiKey: 'API_KEY',
+    appId: 'APP_ID',
+    messagingSenderId: 'MESSAGING_SENDER_ID',
+    projectId: 'PROJECT_ID',
+    authDomain: 'AUTH_DOMAIN',
+    databaseURL: 'DATABASE_URL',
+    storageBucket: 'STORAGE_BUCKET',
+    measurementId: 'MEASUREMENT_ID',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyC4zo6HEBFXWx0alkH_gWhl3dHkbj5EhYM',
-    appId: '1:255895537193:android:ac136545e0dc400a14be38',
-    messagingSenderId: '255895537193',
-    projectId: 'triot-d7e6e',
-    databaseURL: 'https://triot-d7e6e-default-rtdb.firebaseio.com',
-    storageBucket: 'triot-d7e6e.appspot.com',
+    apiKey: 'API_KEY',
+    appId: 'APP_ID',
+    messagingSenderId: 'MESSAGING_SENDER_ID',
+    projectId: 'PROJECT_ID',
+    databaseURL: 'DATABASE_URL',
+    storageBucket: 'STORAGE_BUCKET',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyC-t7Ui0qRTIFRIMbaX8cC9NQk80RfjkU8',
-    appId: '1:255895537193:ios:9eb9c5ca8bc6c8ac14be38',
-    messagingSenderId: '255895537193',
-    projectId: 'triot-d7e6e',
-    databaseURL: 'https://triot-d7e6e-default-rtdb.firebaseio.com',
-    storageBucket: 'triot-d7e6e.appspot.com',
-    iosClientId: '255895537193-e9ak7v71juden0hh586a3ufddkql2jtm.apps.googleusercontent.com',
-    iosBundleId: 'com.example.trflutterbasicsketch',
+    apiKey: 'API_KEY',
+    appId: 'APP_ID',
+    messagingSenderId: 'MESSAGING_SENDER_ID',
+    projectId: 'PROJECT_ID',
+    databaseURL: 'DATABASE_URL',
+    storageBucket: 'STORAGE_BUCKET',
+    iosClientId: 'IOS_CLIENT_ID',
+    iosBundleId: 'IOS_BUNDLE_ID',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyC-t7Ui0qRTIFRIMbaX8cC9NQk80RfjkU8',
-    appId: '1:255895537193:ios:9eb9c5ca8bc6c8ac14be38',
-    messagingSenderId: '255895537193',
-    projectId: 'triot-d7e6e',
-    databaseURL: 'https://triot-d7e6e-default-rtdb.firebaseio.com',
-    storageBucket: 'triot-d7e6e.appspot.com',
-    iosClientId: '255895537193-e9ak7v71juden0hh586a3ufddkql2jtm.apps.googleusercontent.com',
-    iosBundleId: 'com.example.trflutterbasicsketch',
+    apiKey: 'API_KEY',
+    appId: 'APP_ID',
+    messagingSenderId: 'MESSAGING_SENDER_ID',
+    projectId: 'PROJECT_ID',
+    databaseURL: 'DATABASE_URL',
+    storageBucket: 'STORAGE_BUCKET',
+    iosClientId: 'IOS_CLIENT_ID',
+    iosBundleId: 'IOS_BUNDLE_ID',
   );
 }
